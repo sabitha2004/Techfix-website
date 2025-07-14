@@ -1,0 +1,30 @@
+.navbar{
+    position:absolute;
+    top:5%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropmenu-menu {
+    top:0%;
+    left:100%;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+    display:none;
+    position:absolute;
+}
+
+.dropdown-submenu:hover >.dropdown-menu {
+    display:block;
+}
+
+.searchbar {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    z-index: 1000;
+    margin-left:750px;
+}
+
